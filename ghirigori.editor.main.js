@@ -76,7 +76,7 @@ GhiriGori.open_editor = function()
         list = JSON.parse(list);
         editor.selector.update(list);
     }
-    GhiriGori.get_proj_list(callback);
+    //GhiriGori.get_proj_list(callback);
 
     editor.saveButt.onclick = function()
     {
