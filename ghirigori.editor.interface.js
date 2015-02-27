@@ -255,6 +255,8 @@ GhiriGori.Editor = function()
     // Make space for the top menu panel.
     document.body.style.marginTop = ((parseInt(document.body.style.marginTop) || 0) + GhiriGori.bodyOffset) + "px";
 
+//FIXME: all this code for the interface should be write in html!
+
     // Top panel initialization.
     var topWindow = document.createElement("div");
     topWindow.style.position = "fixed";
